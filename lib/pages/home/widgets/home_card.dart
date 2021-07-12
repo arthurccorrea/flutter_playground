@@ -9,7 +9,7 @@ class HomeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: PageUtil.navigate(pageBuilder.page, context),
+      onTap: () => PageUtil.navigateToRoute(pageBuilder.pageRoute, context),
       child: ClipRRect(
           borderRadius: BorderRadius.circular(15),
           child: Container(
