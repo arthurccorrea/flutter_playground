@@ -40,7 +40,7 @@ class _LoadingPageState extends State<LoadingPage> {
               padding: const EdgeInsets.only(bottom: defaultSpacePadding),
               child: Text(
                 "Click to load",
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.white, fontSize: 18),
               ),
             ),
             if (!loading)
