@@ -8,7 +8,7 @@ class GradientContainerBody extends StatelessWidget {
   GradientContainerBody(
       {required this.child,
       this.startColor = const Color(0xFFb8339d),
-      this.endColor = Colors.black});
+      this.endColor = const Color(0xFF414347)});
 
   @override
   Widget build(BuildContext context) {
